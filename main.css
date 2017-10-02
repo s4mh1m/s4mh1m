@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One');
+
+html {
+    background-color: darkred;
+}
+body {
+    background-color: white;
+    margin: 5% 10%;
+    padding: 50px;
+    border-radius: 50px;
+    font-family: sans-serif, 'Poiret One', cursive;
+    color: black;
+}
+
+nav {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 5px 15px;
+    font-family: 'Poiret One', cursive;
+}
+
+header {
+    overflow: auto;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-size: 30px;
+}
+p {
+    font-family: sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+.bioimage {
+    max-width: 300px;
+}
+section {
+    margin: 5%;
+}
+article {
+    display: block;
+    
+}
+footer {
+    position: bottom;
+    text-align: center;
+    font-weight: 600px;
+}
