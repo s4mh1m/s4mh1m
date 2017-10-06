@@ -1,58 +1,166 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Rochester|Sacramento');
 
-html {
-    background-color: darkred;
+main* {
+    margin: 0;
+    padding: 0;
 }
-body {
-    background-color: white;
-    margin: 5% 10%;
-    padding: 50px;
-    border-radius: 50px;
-    font-family: sans-serif, 'Poiret One', cursive;
-    color: black;
+/*header*/
+
+header {
+ background-image: url("https://i.ytimg.com/vi/Z8IHW0EfhAg/maxresdefault.jpg"); 
+ height: auto;
+ width: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ overflow: hidden;
 }
 
+.quote {
+    text-align: center;
+    font-family: 'Rochester', cursive;
+    padding: 10% 0;
+    font-size: 36px;
+    text-shadow: 1px 1px 1px gray;
+}
+
+/*navigation*/
 nav {
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
+
 nav ul li {
     display: inline-block;
     font-weight: 600;
-    font-size: 24px;
-    padding: 5px 15px;
+    color: white;
+    font-size: 18px;
+    padding: 30px 60px;
     font-family: 'Poiret One', cursive;
 }
 
-header {
-    overflow: auto;
+h1 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    text-shadow:  1px 1px 1px black;
+    font-size: 15em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin: 25% auto;
+    text-align: center;
 }
-h1,
-h2,
+
+h2 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    text-shadow:  1px 1px 1px gray;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
 h3 {
     text-align: center;
-    font-family: 'Amatic SC', cursive;
-    color: black;
-    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    text-shadow:  1px 1px 1px gray;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
 }
+
 p {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
 a:link {
     text-decoration: none;
     color: black;
 }
-.bioimage {
-    max-width: 300px;
+
+.biography {
+    padding: 15% 15%;
+    background-image: url('http://waltdisney.org/sites/default/files/waltdisney-theman-a2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
-section {
-    margin: 5%;
+
+.contributions {
+    padding: 15% 15%;
+    border-bottom: 25px double black;
 }
-article {
-    display: block;
+
+.biography img {
+    width: 450px;
+    height: auto;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.biography p {
+    color: white;
+}
+
+.biography h2 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+/*Movies*/
+.movies {
+    margin: 0;
+    padding: 5% 10%;
+}
+
+.column {
+    display: inline-block;
+    width: 262px;
+}
+
+/*.image {
+    float: left;
+    width: 25%;
+}*/
+
+.movies img {
+    box-shadow: 5px 5px 5px gray;
     
 }
+
+/*
+.movies p {
+    margin-left: 15px;
+}
+*/
+
+/*References*/
+
+.references {
+    padding: 5% 15%;
+    display: block;
+    text-align: center;
+}
+
+.references ul li {
+    text-align: left;
+}
+
 footer {
     position: bottom;
+    background-color: darkslategray;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    width: 100%;
     text-align: center;
+    font-size: 12px;
     font-weight: 600px;
 }
